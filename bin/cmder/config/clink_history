@@ -1,0 +1,10 @@
+|CTAG_1663167284_18455859_4204_0
+cd C:\laragon\www
+composer create-project laravel/laravel news
+cd news
+git init -b main
+git remote add origin https://github.com/soranamida1/btLab3.git
+git add .
+git commit -m "Khoi tao du an tren Windows"
+git push -u origin main
+git push -f origin main
